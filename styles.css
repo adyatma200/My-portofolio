@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: darkred;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.email-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    padding: 10px 20px; /* Ruang di sekitar teks tombol */
+    text-align: center; /* Menyelaraskan teks tombol */
+    text-decoration: none; /* Menghapus garis bawah pada link */
+    border-radius: 5px; /* Sudut membulat */
+    font-weight: bold; /* Teks tebal */
+    border: 1px solid #4CAF50; /* Border sesuai dengan warna latar belakang */
+    cursor: pointer; /* Menunjukkan pointer saat hover */
+}
+
+.email-button:hover {
+    background-color: #45a049; /* Warna latar belakang saat hover */
+    border-color: #45a049; /* Border saat hover */
+
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: calc(33% - 2rem);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a i {
+    margin-right: 5px;
+}
+
+.skills {
+    margin-top: 2rem;
+}
+
+.skills h3 {
+    margin-bottom: 1rem;
+}
+
+.skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-icon {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.skill-icon i {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
